@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>SignIn/Up Form</title>
+</head>
+<body>
+  <div class="container" id="container">
+    <div class="form-container sign-up-container">
+      <form action="#">
+        <h1>Buat Akun</h1>
+        <div class="social-container">
+          <a href="#" class='social'><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class='social'><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" class='social'><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <span>atau memakai email kamu untuk daftar</span>
+        <input type="name" placeholder="Nama">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button>Sign Up</button>
+      </form>
+    </div>
+
+    <div class="form-container sign-in-container">
+      <form action="#">
+        <h1>Masuk</h1>
+        <div class="social-container">
+          <a href="#" class='social'><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class='social'><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" class='social'><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <span>atau memakai akun yang kamu miliki</span>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <a href="#">Lupa password?</a>
+        <button>Sign In</button>
+      </form>
+    </div>
+
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>Selamat datang kembali!</h1>
+          <p>
+            Agar terkoneksi dengan kita, masuk dengan data personal kamu
+          </p>
+          <button class="ghost" id="signIn" onclick="removeClass()">Sign In</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+            <h1>Hi, Teman!</h1>
+            <p>
+              Masukan personal data kamu dan mulai perjalanan dengan kita
+            </p>
+            <button class="ghost" id="signUp" onclick="addClass()">Sign Up</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
