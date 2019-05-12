@@ -139,8 +139,7 @@ input {
 }
 
 .overlay {
-  background: #ff416c;
-  background-color: hsla(185, 87%, 81%, 0.91) no-repeat 0 0 / cover;
+  background: hsla(185, 87%, 81%, 0.91) no-repeat 0 0 / cover;
   color: #fff;
   position: relative;
   left: -100%;
